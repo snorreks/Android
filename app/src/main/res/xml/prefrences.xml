@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="en"
+        android:dialogIcon="@drawable/language_icon"
+        android:entries="@array/languages"
+        android:entryValues="@array/languagesValues"
+        android:icon="@drawable/language_icon"
+        android:key="language"
+        android:summary="@string/lang_summary"
+        android:title="@string/lang_title" />
+
+    <MultiSelectListPreference
+        android:defaultValue="@array/categoriesValues"
+        android:dialogIcon="@drawable/book_logo"
+        android:entries="@array/categories"
+        android:entryValues="@array/categoriesValues"
+        android:icon="@drawable/book_logo"
+        android:key="categories"
+        android:summary="@string/categories_summary"
+        android:title="@string/categories_title" />
+    <SwitchPreference
+        android:id="@+id/musicBtn"
+        android:defaultValue="true"
+        android:dialogIcon="@drawable/music_icon"
+        android:icon="@drawable/music_icon"
+        android:key="music"
+        android:summary="@string/music_summary"
+        android:title="@string/music_title" />
+</PreferenceScreen>

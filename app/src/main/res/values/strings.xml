@@ -1,3 +1,81 @@
 <resources>
-    <string name="app_name">Applikasjonsutvikling</string>
+    <string name="app_name">HangMan The Game</string>
+    <string name="lang_title">Languages</string>
+    <string name="lang_summary">Choose a language</string>
+    <string name="categories_title">Categories</string>
+    <string name="categories_summary">Choose which categories you want</string>
+    <string name="wins">Rounds won:</string>
+    <string name="loss">Rounds lost:</string>
+    <string name="rounds_played">Round:</string>
+    <string name="form_total">of</string>
+    <string name="img_desc">image of a hangman</string>
+    <string name="next">Next</string>
+    <string name="start_game">Start Game</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="help_desc">This is a classic hangman game. Go to settings to change language, select categories or turn on/off music.
+        To get to settings press the 3 dots in the upper left corner, or press the settings button in the menu scene.
+        To go back to the main menu press back on your phone or click on the arrow in the upper left corner.</string>
+    <string name="help_title">Help</string>
+    <string name="setting_guide">Go to settings</string>
+    <string name="menu_guide">Go back to menu</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Turn the background music on or off</string>
+    <string name="category_error">You must choose at least one category</string>
+    <string name="finish">Finish</string>
+    <string name="end_game">End Game</string>
+    <string-array name="categories">
+        <item>Foods</item>
+        <item>Sports</item>
+        <item>Movies</item>
+        <item>Games</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Norwegian</item>
+    </string-array>
+
+    <array name="pictureStages">
+        <item>@drawable/hangman_start</item>
+        <item>@drawable/hangman_1</item>
+        <item>@drawable/hangman_2</item>
+        <item>@drawable/hangman_3</item>
+        <item>@drawable/hangman_4</item>
+        <item>@drawable/hangman_5</item>
+        <item>@drawable/hangman_6</item>
+        <item>@drawable/hangman_7</item>
+        <item>@drawable/hangman_8</item>
+        <item>@drawable/hangman_9</item>
+        <item>@drawable/hangman_gameover</item>
+    </array>
+
+    <string-array name="alphabet">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
 </resources>
